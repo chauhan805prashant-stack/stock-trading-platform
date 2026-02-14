@@ -1,23 +1,25 @@
 import React from 'react';
 import Awards from './Awards';
-import stats from './stats';
-import pricing from './pricing';
-import education from './education';
+import Hero from './Hero';
+import Stats from './stats';
+import Pricing from './pricing';
+import Education from './education';
 
-import openaccount from '../openaccount';
+import Openaccount from '../openaccount';
 import Navbar from '../Navbar';
-import footer from '../footer';
+import Footer from '../footer';
 
 function homepage() {
     return ( 
         <>
             <Navbar />
             <Awards />
-            <stats />
-            <pricing />
-            <education />
-            <openaccount />
-            <footer />
+            <Hero />
+            <Stats />
+            <Pricing />
+            <Education />
+            <Openaccount />
+            <Footer />
         
         </>
      );
