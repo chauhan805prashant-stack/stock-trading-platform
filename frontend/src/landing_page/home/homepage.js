@@ -13,8 +13,8 @@ function homepage() {
     return ( 
         <>
             <Navbar />
-            <Awards />
             <Hero />
+            <Awards/>
             <Stats />
             <Pricing />
             <Education />
